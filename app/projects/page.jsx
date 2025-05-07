@@ -14,6 +14,7 @@ export default function ProjectsPage() {
       tags: ["React", "Next Js", "Shadcn", "Tailwind", "Redux"],
       liveUrl: "https://paylisher.com",
     },
+    
     {
       title: "Ad Nouveau",
       description: "A marketing company's portolio website with a custom CMS",

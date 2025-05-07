@@ -9,42 +9,42 @@ const projects = [
   {
     title: "Paylisher",
     description: "A mobile application data analytics platform",
-    image: "/images/paylisher.png",
+    image: "images/paylisher.png",
     tags: ["React", "Next Js", "Shadcn", "Tailwind", "Redux"],
     liveUrl: "paylisher.com",
   },
   {
     title: "Ad Nouveau",
     description: "A marketing company's portolio website with a custom CMS",
-    image: "/images/ad.png",
+    image: "images/ad.png",
     tags: ["React", "Next Js", "Node.js", "Strapi", "TailwindCSS"],
     liveUrl: "ad-nouveau.com",
   },
   {
     title: "Tal Psychology",
     description: "A psychology clinic's web application for patients' listening needs with a custom CMS",
-    image: "/images/tal.png",
+    image: "images/tal.png",
     tags: ["React", "Next Js", "Node.js", "Strapi", "TailwindCSS"],
     liveUrl: "talpsikoloji.com",
   },
   {
     title: "Glorious Gaming",
     description: "Worked in the world's one of the biggest gaming equipment company's e-commerce website",
-    image: "/images/gg1.png",
+    image: "images/gg1.png",
     tags: ["Shopify", "HydrogenJs", "Sanity", "React", "Node.js"],
     liveUrl: "gloriousgaming.com",
   },
   {
     title: "Zahra Sophia",
     description: "Built a website for a clothing brand with shopify",
-    image: "/images/zs2.png",
+    image: "images/zs2.png",
     tags: ["Shopify", 'Liquid', 'CSS'],
     liveUrl: "zahrasophia.com",
   },
   {
     title: "ASPOWER",
     description: "Built a website for one of the biggest power companies in Turkey with a custom CMS",
-    image: "/images/asp.png",
+    image: "images/asp.png",
     tags: ["React", "Next Js" ,"Node.js", "Strapi", "TailwindCSS"],
     liveUrl: "aspower.com.tr",
   },
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="flex-shrink-0">
           <div className="relative h-80 w-80 overflow-hidden rounded-full border-4 border-primary">
             <Image
-              src="/images/pp.jpeg"
+              src="images/pp.jpeg"
               alt="Profile"
               width={320}
               height={320}
